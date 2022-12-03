@@ -1,0 +1,290 @@
+
+body{
+    background-color: #808F85;
+}
+
+/*SLIDE INICIO*/
+#carouselExampleCaptions h1{
+    font-family: 'Bodoni Moda', serif;
+}
+/*BARRA DE NAVEGACION*/
+.navbar {
+    background-color: #000000
+}
+
+
+#navbarNav ul li a{
+    padding-right: 15px;
+    text-decoration: none;
+    text-align: center;
+    padding-inline-start: 30px;
+    padding-top: 20px;
+    padding-right: 20px;
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
+
+h2{
+    color: #ffffff;
+    font-family: 'Bodoni Moda', serif;;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+h3{
+    color: #ffffff;
+    font-weight: 700;
+    padding-bottom: 10px;
+    font-size: 18px;
+    text-align: left;
+    padding-left: 20px ;
+    padding-top: 20px;
+}
+p{
+    font-size: 16px;
+    padding-top: 0px;
+    padding-bottom: 50px;
+    padding-left: 40px ;
+    padding-right: 40px ;
+    line-height: 25px;
+    font-weight: 300;
+    color: #ffffff;
+}
+
+/*VISITA BELVEDERE*/
+#visita-museo  {
+    background-color: #000000;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px ;
+    padding-right: 50px ;
+}
+
+.button:hover {
+    color: #777676;
+}
+
+#visita-museo h2{
+    color: #ffffff;
+    font-family: 'Bodoni Moda', serif;;
+    font-weight: 700;
+    font-size: 40px;
+    padding-bottom: 15px;
+}
+#visita-museo p{
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    padding-bottom: 20px;
+    padding-left: 10px ;
+}
+
+
+
+/*EVENTOS MUSEO*/
+#eventos-museo  {
+    background-color:#832232;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px ;
+    padding-right: 50px ;
+    
+}
+#eventos-museo h2{
+    color: #ffffff;
+    font-family: 'Bodoni Moda', serif;;
+    font-weight: 700;
+    font-size: 40px;
+    padding-bottom: 15px;
+}
+
+#eventos-museo h3{
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    padding-bottom: 15px;
+    padding-left: 10px 
+}
+#eventos-museo p{
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    padding-bottom: 20px;
+    padding-left: 10px 
+}
+
+/*GALERIA*/
+
+#galeria-museo  {
+    background-color:#808F85;
+    padding-top: 50px;
+    padding-bottom: 80px;
+    padding-left: 50px ;
+    padding-right: 50px ;
+    
+}
+#galeria-museo h2{
+    color: #ffffff;
+    font-family: 'Bodoni Moda', serif;;
+    font-weight: 700;
+    font-size: 40px;
+    padding-bottom: 15px;
+    padding-left: 100px ;
+}
+
+
+.button:hover {
+    color: #777676;
+}
+#galeria-museo .card-body {
+    background-color:#808F85;
+    border-radius: none;
+    border-color: none;
+}
+
+.card {
+    margin: 10px 15px;
+}
+
+.card-text {
+    font-size: 13px;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    padding-left: 10px ;
+    padding-right: 10px ;
+    line-height: 25px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    color: #000000
+}
+
+
+/*MODAL*/
+.modal-body{
+    background-color: #808f85;
+}
+.modal-body p{
+    padding-top: 20px;
+    font-size: 14px;
+}
+
+footer{
+    background-color: #808f85;
+    color: white;
+}
+
+.textfooter{
+    font-size: 20px;
+}
+
+#direcciones{
+    color: white;
+    text-decoration-line: none;
+}
+
+/*QUIENES SOMOS*/
+.container h1 {
+color: #832232;
+font-family: 'Bodoni Moda', serif;
+font-weight: 700;
+font-size: 40px;
+padding-bottom: 15px;
+}
+.container h2 {
+    color: #832232;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    padding-bottom: 15px;
+    }
+.container p {
+    color: #000000;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    padding-bottom: 20px;
+    padding-left: 10px 
+}
+
+#historia-museo{
+    background-color:#ffffff;
+}
+/*CONTACTO*/
+#log-in{
+    background-color:#808F85;
+}
+#log-in h1{
+    color: #ffffff;
+font-family: 'Bodoni Moda', serif;
+font-weight: 700;
+font-size: 40px;
+padding-bottom: 15px;
+}
+#log-in .p{
+    color: #000000;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 10px;
+    padding-bottom: 20px;
+    padding-left: 10px 
+}
+
+
+#formulario{
+    background-color:#832232;
+}
+
+#ubicacion h2{
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+#exposiciones{
+    background-color: #009498;
+    color: white;
+}
+
+
+h1,h2,h3,h5{
+    font-family: 'Besley', serif;
+}
+
+.card-body{
+background-color: white;
+}
+#camille{
+    background-color: #832232;
+    color: #EABA00;
+}
+#james{
+    background-color: #832232;
+    color: #EABA00;
+}
+#edouard{
+    background-color: #832232;
+    color: #EABA00;
+}
+#berthe{
+    background-color: #832232;
+    color: #EABA00;
+}
+
+#tienda{
+    background-color: #EABA00;
+}
+
+.textfooter{
+    font-size: 14px;
+}
+
+#direcciones{
+    color: white;
+    text-decoration-line: none;
+}

@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Escobar,Mirta/Alburquerque,Luis/DGTN4AH/2022</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="estilos.css">
+
+<!-- tipografia -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,500;1,6..96,400&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+
+<link rel="icon" href="img/belvedere.svg">
+
+
+  </head>
+
+
+<!-- barra navegacion -->
+  <body>
+  <header>  
+  <nav class="navbar navbar-expand-lg py-3">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"> <img src="img/logo.png" alt="logo" height="50" width="178"></a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon bg-dark"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"> <a class="nav-link active" aria-current="page" href="index.html">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link " href="quienes-somos.html">Quienes somos</a></li>
+          <li class="nav-item"><a class="nav-link" href="colecciones.html">Colecciones</a></li>
+          <li class="nav-item"><a class="nav-link" href="merchandising.html">Merch</a></li>
+          <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div id="carousel-portada" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active c-item">
+        <img src="img/contacto-1.jpg" class="d-block w-100 c-img" alt="superior">
+        <div class="carousel-caption top-0 mt-4">
+          </div>
+      </div>
+      <div class="carousel-item c-item">
+        <img src="img/historia-museo2.jpg" class="d-block w-100 c-img" alt="historia-museo2">
+        <div class="carousel-caption top-0 mt-4">
+          </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- FORMULARIOS -->
+<main>
+<section id="log-in">
+    <div class="container col-xl-10 col-xxl-8 px-4 py-5">
+        <div class="row align-items-center g-lg-5 py-5">
+          <div class="col-lg-7 text-center text-lg-start">
+            <h1 class="display-4 fw-bold lh-1 mb-3">Belvedere digital</h1>
+            <p class="col-lg-10 fs-4">Experimente y explore el arte dondequiera que esté. Sumérjase en las ofertas digitales de Belvedere, 
+                desde la biblioteca digital hasta videos, programas educativos en línea y realidad aumentada hasta NFT.</p>
+          </div>
+          <div class="col-md-10 mx-auto col-lg-5">
+            <form class="p-4 p-md-5 border rounded-3 bg-light">
+              <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                <label for="floatingInput">Email</label>
+              </div>
+              <div class="form-floating mb-3">
+                <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                <label for="floatingPassword">Contraseña</label>
+              </div>
+              <div class="checkbox mb-3">
+                <label>
+                  <input type="checkbox" value="remember-me"> Recordarme
+                </label>
+              </div>
+              <button class="w-100 btn btn-lg btn-dark" type="submit">Ingresar</button>
+              <hr class="my-4">
+              <small class="text-muted">Clickeando acepta los terminos y condiciones de uso.</small>
+            </form>
+          </div>
+        </div>
+      </div>
+</section>    
+
+<section id="formulario">
+    <div class="row py-5">
+        <h2 class="fw-bold display-6 text-center">Contactanos</h2>
+          <form action="form" class="row">
+            <div class="col-7 mx-auto my-2">
+              <label for="nombre" class="form-label fw-bold text-light">Nombre completo (*)</label>
+              <input type="text" class="form-control" id="nombre" placeholder="Nombre completo" required>
+            </div>
+              <div class="col-7 mx-auto my-2">
+              <label for="email" class="form-label fw-bold text-light">E-mail (*)</label>
+              <input type="text" class="form-control" id="email" placeholder="E-mail" required>
+            </div>
+            <div class="col-7 mx-auto my-2">
+              <label for="consultaocomentarios" class="form-label fw-bold text-light">Consulta / Comentarios</label>
+              <textarea class="form-control" rows="3" placeholder="Dejanos tu mensaje" aria-describedby="caracteres-maximos" maxlength="480"></textarea>
+            <div id="caracteres-maximos" class="form-text">caracteres maximos 480</div>
+              </div>
+              <div class="col-12 text-center">
+                <button type="submit" class="btn btn-dark">Enviar consultas</button>
+              </div>
+              </form>
+        </div>
+    </section>        
+</main>
+
+<section id="ubicacion">
+  <div class="container">
+      <div class="row">
+          <div class="col-12 col-md-8 py-3">
+              <div class="ratio ratio-16x9">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3163.0236940065474!2d16.37839240013473!3d48.19168099153113!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476d077d020b9ea5%3A0xdf78570937a6d030!2sGaler%C3%ADa%20Belvedere!5e0!3m2!1ses!2sar!4v1667844903349!5m2!1ses!2sar" width="400" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+          </div>
+          <div class="col-12 col-md-4 py-3">
+              <h2>Sedes del Belvedere</h2>
+              <p>BAJO BELVEDERE   <br>- Apertura: Lunes a Domingo - 8 a 18hs - </p> 
+              <p>BELVEDERE SUPERIOR  <br>- Apertura: Lunes a Lunes - 8 a 18hs -</p>
+              <p>MIRADOR 21  <br> - Apertura: Lunes a Sábado- 8 a 20hs -</p>
+              <button type="button" class="btn btn-dark btn-lg px-4 me-md-2 fw-bold ms-auto">Entradas</button>
+
+          </div>
+      </div>
+  </div>
+</section>
+<!-- FOOTER -->
+<div class="container">
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+    <div class="col-md-4 d-flex align-items-center">
+      <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+        <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"/></svg>
+      </a>
+      <span class="mb-3 mb-md-0 text-light">&copy; Escobar,Mirta - Alburquerque,Luis - DGTN4AH-2022</span>
+    </div>
+
+    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+      <li class="ms-3"><a href="https://www.instagram.com/" target="nuevo" title="ir a instagram"> <img src="img/insta.svg" alt="instagram" width="30" height="30"></a>
+      <li class="ms-3"><a href="https://www.facebook.com/" target="nuevo" title="ir a facebook"> <img src="img/face.svg" alt="facebook" width="30" height="30"></a>
+      <li class="ms-3"><a href="https://www.twitter.com/" target="nuevo" title="ir a facebook"> <img src="img/twitter.svg" alt="twitter" width="30" height="30"></a>
+    </ul>
+  </footer>
+</div>
+      
+      <!-- recursos -->
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="/assets/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+      $('.owl-carousel').owlCarousel({
+  loop:true,
+  margin:15,
+  nav:true,
+  responsive:{
+      0:{
+          items:1
+      },
+      768:{
+            items:2
+        },
+        992:{
+            items:4
+        }
+
+  }
+})
+  </script>
+
+  </body>
+</html>
